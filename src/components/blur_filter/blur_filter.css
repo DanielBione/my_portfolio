@@ -1,0 +1,8 @@
+.blur__filter{
+   width: 100vw;
+   height: 1e6vh;
+   background-color: #ccc1;
+   backdrop-filter: blur(4px);
+   /* z-index: -1; */
+   position: fixed;
+}
