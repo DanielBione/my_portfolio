@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsLinkedin } from 'react-icons/bs'
-import { FaGithub } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 const linkVariants = {
@@ -25,6 +25,12 @@ const HeaderSocials = () => {
       </motion.div>
       <motion.div variants={linkVariants} initial="hidden" animate="visible" className='header__socials__teste'>
         <a href="https://github.com/DanielBione" target='_blank' rel="noreferrer"><FaGithub /></a>
+      </motion.div>
+      <motion.div variants={linkVariants} initial="hidden" animate="visible" className='header__socials__teste'>
+        <a href="https://www.facebook.com/profile.php?id=100094695927875" target='_blank' rel="noreferrer"><FaFacebook /></a>
+      </motion.div>
+      <motion.div variants={linkVariants} initial="hidden" animate="visible" className='header__socials__teste'>
+        <a href="https://www.instagram.com/devescolano/" target='_blank' rel="noreferrer"><FaInstagram /></a>
       </motion.div>
     </motion.div>
   )
