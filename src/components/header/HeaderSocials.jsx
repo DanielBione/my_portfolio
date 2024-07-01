@@ -30,7 +30,7 @@ const HeaderSocials = () => {
         <a href="https://www.facebook.com/profile.php?id=100094695927875" target='_blank' rel="noreferrer"><FaFacebook /></a>
       </motion.div>
       <motion.div variants={linkVariants} initial="hidden" animate="visible" className='header__socials__teste'>
-        <a href="https://www.instagram.com/devescolano/" target='_blank' rel="noreferrer"><FaInstagram /></a>
+        <a href="https://www.instagram.com/dev.escolano/" target='_blank' rel="noreferrer"><FaInstagram /></a>
       </motion.div>
     </motion.div>
   )
